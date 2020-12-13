@@ -7,4 +7,4 @@
 
 扫码体验小程序。
 
-![Image text](https://github.com/e5sub/yyghhy/blob/master/weixin.jpg)
+![微信扫码体验小程序](https://github.com/e5sub/yyghhy/blob/master/weixin.jpg)
