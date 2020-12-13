@@ -6,4 +6,4 @@
 
 扫码体验小程序
 
-![Image text](https://www.yaohst.com/wp-content/uploads/2020/08/weixin.jpg)
+![Image text](https://github.com/e5sub/yyghhy/blob/master/weixin.jpg)
