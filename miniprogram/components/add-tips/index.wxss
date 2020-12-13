@@ -1,0 +1,36 @@
+.box { 
+  position:fixed; 
+  right:0; 
+  z-index:15000; 
+  display:flex; 
+  justify-content:flex-end; 
+  align-items:flex-end; 
+  flex-direction:column; 
+  width:600rpx; 
+} 
+
+.arrow { 
+  width:0; 
+  height:0; 
+  border-width:5px; 
+  border-style:solid; 
+  border-color:transparent transparent #FF99AC transparent; 
+}
+
+.body { 
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  box-shadow: 0 8rpx 16rpx 0 rgba(235, 21, 21, 0.281);
+  border-radius: 20px; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+  height:20px; 
+  padding:5px 15px; 
+}
+
+.tips { 
+  flex:1; 
+  color:#fff; 
+  font-size:12px; 
+}
