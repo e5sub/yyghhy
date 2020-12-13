@@ -1,0 +1,16 @@
+<!-- 自定义导航 -->
+<view class="container" wx:if="{{flag}}">
+  <view class='nav-wrap' style='width: 100vw; height: 0px;'>
+    <view class="" style="height: 0px"></view>
+    <view class='nav-title' style='position: relative;width: 100vw;text-align: center;height: {{navHeight}}px;line-height: {{navHeight}}px'>
+      <view bindtap="back" style="cursor: pointer;position: absolute; top:{{(navHeight - 16) /2}}px;left: 15px; width: 20px; height: 20px;" >
+           </view>
+    </view>
+  </view>
+  <view class="" style="height: calc(100vh - {{statusBarHeight}}px)">
+    <chat 
+      bind:queryCallback="getQueryCallback" 
+      bind:backHome="goBackHome"
+    ></chat>
+  </view>
+</view>
