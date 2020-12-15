@@ -25,7 +25,7 @@ Page({
       appid: "hOJg0q6HW1pODWA5u8IP2UWi8A2Qeu",
       openid: "oB6jg6ENstneouhXefbujwJl7v2n", // 小程序的openid
       // textToSpeech: true,
-      // guideList: [],
+      guideList: [],
       welcome: '我是生活小助手，请问您需要什么帮助？',
       // background: "#eee",
       // guideCardHeight: 20,
