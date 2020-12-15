@@ -26,8 +26,8 @@ Page({
       openid: "oB6jg6ENstneouhXefbujwJl7v2n", // 小程序的openid
       // textToSpeech: true,
       guideList: [],
-      welcome: '我是生活小助手，请问您需要什么帮助？',
-      // background: "#eee",
+      welcome: '欢迎光临嘤嘤怪后花园，请问您需要什么帮助？',
+      background: "#FFFFFF",
       // guideCardHeight: 20,
       operateCardHeight: 50,
       history: false,
