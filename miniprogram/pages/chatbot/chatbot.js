@@ -26,11 +26,11 @@ Page({
       openid: "oB6jg6ENstneouhXefbujwJl7v2n", // 小程序的openid
       // textToSpeech: true,
       // guideList: [],
-      welcome: '请问需要什么帮助',
+      welcome: '我是生活小助手，请问您需要什么帮助？',
       // background: "#eee",
       // guideCardHeight: 20,
       operateCardHeight: 50,
-      // history: true,
+      history: false,
       // historySize: 20,
       navHeight: 0,
       success: () => {
