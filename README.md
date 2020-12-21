@@ -17,3 +17,7 @@ https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx738958e0f4c894f9&token=1653
 
 https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx8c631f7e9f2465e1&token=1653769583&lang=zh_CN
 
+手动集成以上两个插件详细教程
+
+https://www.yaohst.com/network/other/2820.html
+
