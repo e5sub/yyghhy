@@ -125,7 +125,7 @@ Page({
         let posterConfig = {
             width: 750,
             height: 1334,
-            backgroundColor: '#E6372F',
+            backgroundColor: '#1E90FF',
             debug: false,
             pixelRatio: 1,
             blocks: [{
