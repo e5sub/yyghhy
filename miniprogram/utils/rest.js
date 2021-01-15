@@ -1,5 +1,5 @@
 /*
- * 酱茄小程序开源版 v1.2.2
+ * 酱茄小程序开源版 v1.3.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
@@ -20,7 +20,8 @@ function request(url, data = {}, method = "GET") {
         // wx.showLoading();
 
         data.token = Auth.getToken();
-
+        data.t = new Date().getTime();
+        data.r = Math.floor(Math.random() * 10000);
         wx.request({
             url: url,
             data: data,
