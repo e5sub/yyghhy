@@ -1,11 +1,11 @@
 /*
- * 酱茄小程序开源版 v1.3.0
+ * 酱茄小程序开源版 v1.3.5
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
  * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 const Util = require('../../utils/util');
@@ -39,24 +39,30 @@ Page({
         }
     },
 
-    handlerCancelClick: function(e) {
+    handlerCancelClick: function (e) {
         Util.navigateBack();
     },
 
-    handlerLoginClick: function(e) {
-        Auth.getWXUser().then(res => {
-            return Rest.get(Api.JIANGQIE_USER_LOGIN, {
-                code: res.code,
-                encrypted_data: encodeURIComponent(res.encryptedData),
-                iv: encodeURIComponent(res.iv),
-                // nickName: res.userInfo.nickName, //测试
-                // avatarUrl: res.userInfo.avatarUrl, //测试
-            })
-        }).then(res => {
-            let user = res.data;
-            Auth.setUser(user);
-            
-            Util.navigateBack();
+    handlerLoginClick: function (e) {
+        wx.getUserProfile({
+            desc: '使用微信的头像昵称初始化用户',
+            success: function (wxu) {
+                Auth.getWXUser().then(res => {
+                    return Rest.get(Api.JIANGQIE_USER_LOGIN, {
+                        code: res.code,
+                        nickName: wxu.userInfo.nickName,
+                        avatarUrl: wxu.userInfo.avatarUrl,
+                    })
+                }).then(res => {
+                    let user = res.data;
+                    Auth.setUser(user);
+
+                    Util.navigateBack();
+                });
+            },
+            fail: function (err) {
+                Util.toast('需要同意才能登录');
+            }
         });
     }
 })

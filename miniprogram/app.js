@@ -1,5 +1,5 @@
 /*
- * 酱茄小程序开源版 v1.3.0
+ * 酱茄小程序开源版 v1.3.5
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
@@ -34,7 +34,7 @@ App({
         keepscreenon: false,
         systeminfo: {},
         isIPhoneX: false,
-        key: '修改成你自己的天气api',
+        key: '870d88aa89ad4ba19883c85651724306',
         weatherIconUrl: 'https://cdn.heweather.com/cond_icon/',
         requestUrl: {
           weather: 'https://free-api.heweather.com/s6/weather',

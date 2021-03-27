@@ -1,5 +1,5 @@
 /*
- * 酱茄小程序开源版 v1.3.0
+ * 酱茄小程序开源版 v1.3.5
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
@@ -42,7 +42,7 @@ Page({
     //返回页面是否需要刷新
     needRefresh: true,
 
-    onLoad: function (options) {
+    onLoad: function (options) {        
         if (options.scene) {
             this.post_id = decodeURIComponent(options.scene);
         } else if (options.post_id) {
