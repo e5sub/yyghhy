@@ -2,7 +2,7 @@
 	<view class="tui-flex">
 		<view class="tui-cube-box" bindtap='tipClick'>
 			<view class="tui-cube tui-cube-1">❤</view>
-			<view class="tui-cube tui-cube-2">V4.3.0</view>
+			<view class="tui-cube tui-cube-2">V1.4.0</view>
 			<view class="tui-cube tui-cube-3">嘤嘤怪</view>
 			<view class="tui-cube tui-cube-4">后花园</view>
 			<view class="tui-cube tui-cube-5">博客</view>
