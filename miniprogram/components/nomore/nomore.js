@@ -20,7 +20,7 @@ Component({
         //isDot为false时生效
         text: {
             type: String,
-            value: "© 嘤嘤怪后花园"
+            value: "© 好视通客户服务中心"
         }
     },
     data: {

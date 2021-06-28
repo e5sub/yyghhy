@@ -42,7 +42,7 @@ Page({
     //返回页面是否需要刷新
     needRefresh: true,
 
-    onLoad: function (options) {        
+    onLoad: function (options) {
         if (options.scene) {
             this.post_id = decodeURIComponent(options.scene);
         } else if (options.post_id) {

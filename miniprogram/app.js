@@ -12,14 +12,14 @@ const Auth = require('./utils/auth.js');
 
 App({
 
-    appName: '嘤嘤怪后花园',
+    appName: '好视通客服',
 
     onLaunch: function () {
         Auth.checkSession();
     },
     onLaunch() {
         wx.cloud.init({
-          env: 'yyg-hhy',
+          env: 'hstcsm-5gz97bpda7074ebd',
           traceUser: true,
         })
         wx.getSystemInfo({

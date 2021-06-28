@@ -10,6 +10,6 @@
 
 module.exports = {
     //你的域名
-    JQ_DOMAIN: 'www.yaohst.com',
+    JQ_DOMAIN: 'zouxj.cn',
     JQ_DEBUG: false
 }

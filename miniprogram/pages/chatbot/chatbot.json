@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "生活小助手",
-  "usingComponents": {
-    "chat": "plugin://chatbot/chat"
-  }
-}
