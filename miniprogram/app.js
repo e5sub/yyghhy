@@ -1,5 +1,5 @@
 /*
- * 酱茄小程序开源版 v1.4.0
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
@@ -12,14 +12,14 @@ const Auth = require('./utils/auth.js');
 
 App({
 
-    appName: '好视通客服',
+    appName: '嘤嘤怪后花园',
 
     onLaunch: function () {
         Auth.checkSession();
     },
     onLaunch() {
         wx.cloud.init({
-          env: 'hstcsm-5gz97bpda7074ebd',
+          env: 'yyg-hhy',
           traceUser: true,
         })
         wx.getSystemInfo({

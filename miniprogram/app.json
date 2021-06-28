@@ -10,9 +10,9 @@
         "pages/about/about",
         "pages/login/login",
         "pages/viewhtml/viewhtml",
-        "pages/weather/weather",       
+        "pages/weather/weather",
+        "pages/chatbot/chatbot",       
         "pages/citychoose/citychoose"
-    
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -34,16 +34,22 @@
                 "selectedIconPath": "images/tabbar/index_active.png"
             },
             {
-                "pagePath": "pages/categories/categories",
-                "text": "分类",
-                "iconPath": "images/tabbar/cat_gray.png",
-                "selectedIconPath": "images/tabbar/cat_active.png"
-              },
-            {
                 "pagePath": "pages/hot/hot",
-                "text": "热门",
+                "text": "热榜",
                 "iconPath": "images/tabbar/hot_gray.png",
                 "selectedIconPath": "images/tabbar/hot_active.png"
+            },
+            {
+              "pagePath": "pages/chatbot/chatbot",
+              "text": "助手",
+              "iconPath": "images/tabbar/zhinen_gray.png",
+              "selectedIconPath": "images/tabbar/zhinen_active.png"
+            },
+            {
+              "pagePath": "pages/categories/categories",
+              "text": "客服",
+              "iconPath": "images/tabbar/kefu_gray.png",
+              "selectedIconPath": "images/tabbar/kefu_active.png"
             },
             {
                 "pagePath": "pages/ucenter/ucenter",
@@ -63,6 +69,21 @@
       "scope.userLocation": {
         "desc": "根据用户当前位置获取实时天气信息"
       }
-    },    
+    },
+      "plugins": {
+      "kefu": {
+        "version": "1.1.0",
+        "provider": "wx738958e0f4c894f9"
+      },
+      "chatbot": {
+        "version": "1.2.22",
+        "provider": "wx8c631f7e9f2465e1"
+      },
+      "WechatSI": {
+        "version": "0.3.4",
+        "provider": "wx069ba97219f66d99"
+      }    
+    },
+    "requiredBackgroundModes": ["audio"],
     "sitemapLocation": "sitemap.json"
   }

@@ -2,11 +2,11 @@
 	<view class="tui-flex">
 		<view class="tui-cube-box" bindtap='tipClick'>
 			<view class="tui-cube tui-cube-1">❤</view>
-			<view class="tui-cube tui-cube-2">V1.4.0</view>
-			<view class="tui-cube tui-cube-3">好视通</view>
-			<view class="tui-cube tui-cube-4">客户</view>
-			<view class="tui-cube tui-cube-5">服务</view>
-			<view class="tui-cube tui-cube-6">中心</view>
+			<view class="tui-cube tui-cube-2">V1.5.0</view>
+			<view class="tui-cube tui-cube-3">嘤嘤怪</view>
+			<view class="tui-cube tui-cube-4">后花园</view>
+			<view class="tui-cube tui-cube-5">博客</view>
+			<view class="tui-cube tui-cube-6">笔记</view>
 		</view>
 
 	</view>
@@ -14,9 +14,9 @@
 	<view class="tui-content-box">
 				<view class="tui-content">本小程序可能存在缺陷或者bug，如果您在使用过程中发现问题或者有更好的建议，可反馈给我。</view>
 		<view class="tui-content">
-			您可以通过客服或者添加微信联系我！
+			您可以通过反馈或者以下方式联系我！
 		</view>
-		<view class="tui-content tui-content-email" bindtap="copy" data-text="th1040155">微信：1040155</view>
+		<view class="tui-content tui-content-email" bindtap="copy" data-text="th1040155">微信客服：1040155</view>
 		<view class="tui-footer">
 			<image src='../../images/qrcode.jpg' class="tui-applets" mode="widthFix"></image>
 			<view class="tui-footer-text">扫描二维码，开始体验吧！</view>

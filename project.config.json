@@ -36,9 +36,9 @@
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
-  "appid": "wxa5f26e265d16c467",
+  "appid": "wx0d96f54ea6d9e466",
   "projectname": "4.0.0",
-  "libVersion": "2.12.2",
+  "libVersion": "2.8.1",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
